@@ -12,7 +12,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: pageMeta({
       title: "Cheapest Towing 2013 NZ — 24/7 Roadside Assistance NZ",
-      description: "The NZ's trusted 24/7 emergency recovery, towing, accident recovery and specialist vehicle transport. Fast response, fair prices.",
+      description: "New Zealand's trusted 24/7 emergency recovery, towing, accident recovery and specialist vehicle transport. Fast response, fair prices.",
       path: "/",
       image: IMG.hero,
     }),
