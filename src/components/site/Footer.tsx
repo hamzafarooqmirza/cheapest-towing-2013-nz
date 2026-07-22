@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { IMG, PHONE, PHONE_DISPLAY, WHATSAPP, EMAIL, ADDRESS, BRAND } from "@/lib/assets";
+import { IMG, PHONE, PHONE_DISPLAY, WHATSAPP, EMAIL, ADDRESS } from "@/lib/assets";
 import { SERVICES } from "@/lib/services";
 import { Phone, Mail, MapPin, MessageCircle, Heart } from "lucide-react";
 
@@ -8,10 +8,7 @@ export function Footer() {
     <footer className="mt-24 border-t border-border/60 bg-card/30">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-4">
         <div className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <img src={IMG.logo} alt="" className="h-11 w-auto" />
-            <span className="text-lg font-black leading-none tracking-tight">{BRAND}</span>
-          </div>
+          <img src={IMG.logo} alt="Cheapest Towing 2013 NZ" className="h-14 w-auto" />
           <p className="text-sm text-muted-foreground">New Zealand's trusted 24/7 roadside assistance, vehicle recovery and transport specialists.</p>
         </div>
         <div>
