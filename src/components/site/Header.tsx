@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
-import { IMG, PHONE, PHONE_DISPLAY } from "@/lib/assets";
+import { IMG, PHONE, PHONE_DISPLAY, BRAND } from "@/lib/assets";
 
 const nav = [
   { to: "/", label: "Home" },
@@ -18,8 +18,9 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/70 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
-        <Link to="/" className="flex items-center gap-3 shrink-0">
-          <img src={IMG.logo} alt="Cheapest Towing 2013 NZ logo" className="h-12 w-auto" />
+        <Link to="/" className="flex items-center gap-2.5 shrink-0">
+          <img src={IMG.logo} alt="" className="h-10 w-auto" />
+          <span className="text-lg font-black leading-none tracking-tight">{BRAND}</span>
         </Link>
         <nav className="hidden lg:flex items-center gap-1">
           {nav.map((n) => (

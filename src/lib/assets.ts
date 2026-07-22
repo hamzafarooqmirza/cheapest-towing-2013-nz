@@ -21,9 +21,9 @@ export const IMG = {
   carAndTowingVan: "/images/car-and-towing-van.webp",
 };
 
-export const PHONE = "+64211234567";
-export const PHONE_DISPLAY = "021 123 4567";
-export const WHATSAPP = "https://wa.me/64211234567";
+export const PHONE = "+6421825128";
+export const PHONE_DISPLAY = "021 825 128";
+export const WHATSAPP = "https://wa.me/6421825128";
 export const EMAIL = "info@cheapesttowing2013nz.co.nz";
 export const ADDRESS = "Auckland, New Zealand";
 export const BRAND = "Cheapest Towing 2013 NZ";

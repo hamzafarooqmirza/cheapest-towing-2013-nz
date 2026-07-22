@@ -105,7 +105,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "@context": "https://schema.org",
           "@type": "AutomotiveBusiness",
           name: "Cheapest Towing 2013 NZ",
-          telephone: "+64211234567",
+          telephone: "+6421825128",
           areaServed: "NZ",
           address: { "@type": "PostalAddress", addressCountry: "NZ", addressLocality: "Auckland" },
           openingHours: "Mo-Su 00:00-23:59",

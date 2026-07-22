@@ -8,7 +8,10 @@ export function Footer() {
     <footer className="mt-24 border-t border-border/60 bg-card/30">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-4">
         <div className="space-y-4">
-          <img src={IMG.logo} alt={`${BRAND} logo`} className="h-14 w-auto" />
+          <div className="flex items-center gap-2.5">
+            <img src={IMG.logo} alt="" className="h-11 w-auto" />
+            <span className="text-lg font-black leading-none tracking-tight">{BRAND}</span>
+          </div>
           <p className="text-sm text-muted-foreground">New Zealand's trusted 24/7 roadside assistance, vehicle recovery and transport specialists.</p>
         </div>
         <div>
