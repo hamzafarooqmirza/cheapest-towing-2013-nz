@@ -5,7 +5,6 @@ export const IMG = {
   vehicleTowingService: "/images/vehicle-towing-service.webp",
   breakdownRecovery: "/images/breakdown-recovery.webp",
   breakdownRecoveryAlt: "/images/breakdown-recovery-alt.webp",
-  accidentRecovery: "/images/accident-recovery.webp",
   flatbedTowing: "/images/flatbed-towing.webp",
   luxurySportsCarTransport: "/images/luxury-sports-car-transport.webp",
   suv4x4Recovery: "/images/suv-4x4-recovery.webp",

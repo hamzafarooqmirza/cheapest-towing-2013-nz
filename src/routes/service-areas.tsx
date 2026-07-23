@@ -8,7 +8,7 @@ import { MapPin } from "lucide-react";
 
 export const Route = createFileRoute("/service-areas")({
   head: () => ({
-    meta: pageMeta({ title: "Service Areas — Cheapest Towing 2013 NZ", description: "We cover the greater Auckland region — from the CBD and North Shore to South Auckland and the Waitakere Ranges — with nationwide recovery available 24/7.", path: "/service-areas", image: IMG.roadsideAssistance }),
+    meta: pageMeta({ title: "Service Areas — Cheapest Towing 2013 NZ", description: "We cover the greater Auckland region — from the CBD and North Shore to South Auckland and the Waitakere Ranges — with nationwide recovery available.", path: "/service-areas", image: IMG.roadsideAssistance }),
     links: [{ rel: "canonical", href: "/service-areas" }],
   }),
   component: AreasPage,

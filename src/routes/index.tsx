@@ -11,8 +11,8 @@ import { Phone, MessageCircle, Clock, Zap, Users, Banknote, ShieldCheck, Star, P
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: pageMeta({
-      title: "Cheapest Towing 2013 NZ — 24/7 Roadside Assistance NZ",
-      description: "New Zealand's trusted 24/7 emergency recovery, towing, accident recovery and specialist vehicle transport. Fast response, fair prices.",
+      title: "Cheapest Towing 2013 NZ — Roadside Assistance NZ",
+      description: "New Zealand's trusted emergency recovery, towing and specialist vehicle transport. Fast response, fair prices.",
       path: "/",
       image: IMG.hero,
     }),
@@ -31,10 +31,10 @@ function Home() {
         </div>
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 py-10 md:py-14">
           <span className="inline-flex items-center gap-2 rounded-full border border-primary/40 bg-primary/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-primary">
-            <span className="h-2 w-2 rounded-full bg-primary animate-pulse" /> Available 24/7 · Nationwide
+            <span className="h-2 w-2 rounded-full bg-primary animate-pulse" /> Available Nationwide
           </span>
           <h1 className="mt-6 text-5xl md:text-7xl font-black tracking-tight leading-[1.05]">
-            24/7 Emergency<br />
+            Emergency<br />
             <span className="bg-gradient-to-r from-primary to-red-200 bg-clip-text text-transparent">Car Recovery</span><br />
             & Towing
           </h1>
@@ -51,7 +51,7 @@ function Home() {
           </div>
           <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl">
             {[
-              { k: "24/7", v: "Always Open" },
+              { k: "Insured", v: "Fully Covered" },
               { k: "15-30min", v: "Avg Response" },
               { k: "10k+", v: "Jobs Done" },
               { k: "5★", v: "Customer Rated" },
@@ -86,7 +86,7 @@ function Home() {
         <p className="mx-auto mt-3 max-w-2xl text-center text-muted-foreground">Premium service, transparent pricing and a team that genuinely cares.</p>
         <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {[
-            { i: Clock, t: "Available 24/7", d: "Day or night, weekend or holiday — we're always one call away." },
+            { i: Clock, t: "Quick Dispatch", d: "We aim to get a truck moving toward you as soon as you call." },
             { i: Zap, t: "Fast Response", d: "Average 20-40min arrival across Auckland and the wider North Island." },
             { i: Users, t: "Experienced Team", d: "Trained operators who handle your vehicle with the utmost care." },
             { i: Banknote, t: "Affordable Prices", d: "Fair, transparent pricing with no hidden fees, ever." },
@@ -106,7 +106,7 @@ function Home() {
         <h2 className="text-4xl md:text-5xl font-black text-center">How It Works</h2>
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {[
-            { n: "01", i: PhoneCall, t: "Call Us", d: "Phone or WhatsApp our 24/7 line and tell us your location." },
+            { n: "01", i: PhoneCall, t: "Call Us", d: "Phone or WhatsApp us and tell us your location." },
             { n: "02", i: Truck, t: "We Dispatch", d: "Our nearest truck or van is dispatched within minutes." },
             { n: "03", i: CheckCircle2, t: "Problem Solved", d: "We get you back on the road or safely transport your vehicle." },
           ].map((s) => (
@@ -157,7 +157,7 @@ function Home() {
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">Get in touch</p>
           <h2 className="mt-3 text-4xl md:text-5xl font-black">Need help right now?</h2>
-          <p className="mt-4 text-muted-foreground">Send us a message or call directly. Our dispatchers are standing by 24/7.</p>
+          <p className="mt-4 text-muted-foreground">Send us a message or call directly. Our dispatchers are ready to help.</p>
           <div className="mt-8 overflow-hidden rounded-3xl border border-border aspect-[4/3]">
             <iframe title="Service area map" src="https://www.openstreetmap.org/export/embed.html?bbox=174.5980%2C-37.0000%2C174.9980%2C-36.7000&layer=mapnik" className="h-full w-full" loading="lazy" />
           </div>

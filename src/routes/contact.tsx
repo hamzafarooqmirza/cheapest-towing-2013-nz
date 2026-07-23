@@ -8,7 +8,7 @@ import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
-    meta: pageMeta({ title: "Contact Us — Cheapest Towing 2013 NZ", description: "Call, WhatsApp or message Cheapest Towing 2013 NZ 24/7 for emergency roadside assistance across New Zealand.", path: "/contact", image: IMG.roadsideAssistance }),
+    meta: pageMeta({ title: "Contact Us — Cheapest Towing 2013 NZ", description: "Call, WhatsApp or message Cheapest Towing 2013 NZ for emergency roadside assistance across New Zealand.", path: "/contact", image: IMG.roadsideAssistance }),
     links: [{ rel: "canonical", href: "/contact" }],
   }),
   component: ContactPage,
@@ -17,12 +17,12 @@ export const Route = createFileRoute("/contact")({
 function ContactPage() {
   return (
     <SiteLayout>
-      <PageHero eyebrow="Contact" title="Get help, 24/7" subtitle="Pick up the phone or message us — we'll dispatch the closest truck immediately." image={IMG.roadsideAssistance} />
+      <PageHero eyebrow="Contact" title="Get help now" subtitle="Pick up the phone or message us — we'll dispatch the closest truck immediately." image={IMG.roadsideAssistance} />
       <section className="mx-auto max-w-7xl px-4 sm:px-6 py-16 grid gap-10 lg:grid-cols-2">
         <div>
           <div className="grid gap-4">
             {[
-              { i: Phone, t: "Phone (24/7)", v: PHONE_DISPLAY, href: `tel:${PHONE}` },
+              { i: Phone, t: "Phone", v: PHONE_DISPLAY, href: `tel:${PHONE}` },
               { i: MessageCircle, t: "WhatsApp", v: "Message us instantly", href: WHATSAPP },
               { i: Mail, t: "Email", v: EMAIL, href: `mailto:${EMAIL}` },
               { i: MapPin, t: "Address", v: ADDRESS, href: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(ADDRESS)}` },

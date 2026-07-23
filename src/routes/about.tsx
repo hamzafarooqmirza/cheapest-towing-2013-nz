@@ -7,7 +7,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
-    meta: pageMeta({ title: "About Us — Cheapest Towing 2013 NZ", description: "Learn about Cheapest Towing 2013 NZ, New Zealand's trusted 24/7 roadside assistance and vehicle transport company.", path: "/about", image: IMG.roadsideAssistance }),
+    meta: pageMeta({ title: "About Us — Cheapest Towing 2013 NZ", description: "Learn about Cheapest Towing 2013 NZ, New Zealand's trusted roadside assistance and vehicle transport company.", path: "/about", image: IMG.roadsideAssistance }),
     links: [{ rel: "canonical", href: "/about" }],
   }),
   component: About,

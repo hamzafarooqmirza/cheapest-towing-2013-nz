@@ -16,7 +16,7 @@ function GalleryPage() {
   const images = [
     IMG.hero, IMG.roadsideAssistance, IMG.carTowing, IMG.carAndTowingVan,
     IMG.emergencyCarRecovery, IMG.vehicleTowingService, IMG.breakdownRecovery, IMG.breakdownRecoveryAlt,
-    IMG.accidentRecovery, IMG.flatbedTowing, IMG.luxurySportsCarTransport, IMG.suv4x4Recovery,
+    IMG.flatbedTowing, IMG.luxurySportsCarTransport, IMG.suv4x4Recovery,
     IMG.recoveryToMechanic, IMG.recoveryToDealership, IMG.luxuryExoticCarTowing,
     IMG.commercialVehicleTowing,
   ];

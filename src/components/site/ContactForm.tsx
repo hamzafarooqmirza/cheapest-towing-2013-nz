@@ -22,7 +22,7 @@ export function ContactForm({ defaultService }: { defaultService?: string }) {
       <button className="rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-lg shadow-primary/30 hover:opacity-95">
         {sent ? "Opening WhatsApp…" : "Send Request via WhatsApp"}
       </button>
-      <p className="text-xs text-muted-foreground">For immediate help, call us 24/7. We respond within minutes.</p>
+      <p className="text-xs text-muted-foreground">For immediate help, call us directly. We respond within minutes.</p>
     </form>
   );
 }

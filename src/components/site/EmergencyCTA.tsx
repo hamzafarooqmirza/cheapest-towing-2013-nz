@@ -5,7 +5,7 @@ export function EmergencyCTA() {
   return (
     <section className="mx-auto max-w-7xl px-4 sm:px-6 py-16">
       <div className="relative overflow-hidden rounded-3xl border border-primary/40 bg-gradient-to-br from-primary/20 via-card to-card p-8 md:p-14 text-center">
-        <p className="text-xs font-bold uppercase tracking-[0.25em] text-primary">24/7 Emergency</p>
+        <p className="text-xs font-bold uppercase tracking-[0.25em] text-primary">Emergency</p>
         <h2 className="mt-3 text-3xl md:text-5xl font-black">Stuck on the road? We're 5 minutes away.</h2>
         <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">Fast, reliable roadside assistance across New Zealand. Call now or message us on WhatsApp — help is on the way.</p>
         <div className="mt-8 flex flex-wrap justify-center gap-3">
