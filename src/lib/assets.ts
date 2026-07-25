@@ -20,6 +20,6 @@ export const IMG = {
 export const PHONE = "+6421825128";
 export const PHONE_DISPLAY = "021 825 128";
 export const WHATSAPP = "https://wa.me/6421825128";
-export const EMAIL = "info@cheapesttowing2013nz.co.nz";
+export const EMAIL = "Cheapest.rowing@yahoo.com";
 export const ADDRESS = "Auckland, New Zealand";
 export const BRAND = "Cheapest Towing 2013 NZ";
