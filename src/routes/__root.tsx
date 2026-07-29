@@ -110,6 +110,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           address: { "@type": "PostalAddress", addressCountry: "NZ", addressLocality: "Auckland" },
         }),
       },
+      {
+        async: true,
+        src: "https://www.googletagmanager.com/gtag/js?id=G-JLTMN5KG54",
+      },
+      {
+        children: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-JLTMN5KG54');`,
+      },
     ],
   }),
   shellComponent: RootShell,
