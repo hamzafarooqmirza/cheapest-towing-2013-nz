@@ -53,8 +53,8 @@ function Home() {
             {[
               { k: "Insured", v: "Fully Covered" },
               { k: "15-30min", v: "Avg Response" },
-              { k: "10k+", v: "Jobs Done" },
-              { k: "5★", v: "Customer Rated" },
+              { k: "Fixed", v: "Upfront Pricing" },
+              { k: "Nationwide", v: "Coverage" },
             ].map((s) => (
               <div key={s.k} className="rounded-2xl border border-border bg-card/60 px-4 py-3 backdrop-blur-xl">
                 <div className="text-2xl font-black text-primary">{s.k}</div>
@@ -91,7 +91,7 @@ function Home() {
             { i: Users, t: "Experienced Team", d: "Trained operators who handle your vehicle with the utmost care." },
             { i: Banknote, t: "Affordable Prices", d: "Fair, transparent pricing with no hidden fees, ever." },
             { i: ShieldCheck, t: "Reliable Service", d: "Modern fleet, full insurance and a track record you can trust." },
-            { i: Star, t: "Customer Satisfaction", d: "Hundreds of five-star reviews from happy customers across New Zealand." },
+            { i: MessageCircle, t: "Clear Communication", d: "We call or message with updates from dispatch through to drop-off." },
           ].map((w) => (
             <div key={w.t} className="rounded-3xl border border-border bg-card/60 p-7 backdrop-blur-xl transition hover:border-primary/50">
               <div className="grid h-12 w-12 place-items-center rounded-2xl bg-primary/15 text-primary"><w.i className="h-6 w-6" /></div>
